@@ -8,6 +8,8 @@ import java.util.List;
 
 
 public interface DepService {
+	int a = 0;
+
 	/**查询所有**/
-	public List<Dep> findAll();
+	List<Dep> findAll();
 }
